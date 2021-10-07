@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    overflow: visible;
+}
+body{
+    background-color:rgb(32,31,31);
+    color: goldenrod;
+}
+
+
+a{
+    color: magenta;
+    transition: opicity seconds;
+
+}
+
+
+a:hover{
+    cursor: pointer;
+    color: goldenrod;
+}
+.col1{  
+
+    padding: 65px;
+    display:flexbox;
+}
+
+.col1{width: 27%; padding-top: 20px;}
+
+section>div{
+    color: goldenrod;
+    padding: 0px 0px 0px 100px;
+}
+
+p {
+color: goldenrod;
+text-align: center;
+margin: 0px 350px 0px 350px;
+}
+
+.textcenter{
+    text-align: center;
+}
+
+h1 {
+    color: goldenrod;
+    text-align: center;
+}
+
+h2{
+    margin:50px 0px 50px 100px ;
+}
+
+p img {
+    width: 400px;
+    position: relative;
+    top: 50px;
+}
+
+section>ul{
+    padding: 25px 0px 0px 100px;
+}
+
+section>ul>li{
+    padding: 0px 100px 0px 0px;
+}
+
+footer{
+    margin-top: 100px !important;
+    background-color: #1b1e21;
+    border-top: #734F96 2px solid ;
+}
+.social-icons img {
+    width: 100px !important;
+}
+
+footer span{
+    margin-top: 50px !important;
+}
+
+button{
+    position: fixed;
+    float: left;
+    top: 10px;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:goldenrod;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.my-float{
+	margin-top:22px;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    position: relative;
+    top: 25px;
+    display: inline-block;
+    padding: 3px;
+    text-align: center;
+  }
+
+  .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    text-align: center;
+  }
