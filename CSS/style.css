@@ -1,291 +1,157 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-html, body {
-    margin: 0;
-    height: 100%;
-}
-.bookCover{
-    width: 200px;
-}
-#login-page{
-    background-image: url("../resources/log-bg.jpg");
-    background-size: 130%;
-    background-repeat: no-repeat;
 
-}
-.logo{
-    display: inline;
-}
-.logo>#logo-login-pc{
-    display: inline;
-    width:25%;
-    margin: 0 0 20px 0;
-    padding-bottom: 20px;
-    border-bottom: #6f42c1 1px inset;
-}
-#logo-login-mobile{
-    display: none;
-}
-.log-box{
-    text-align: center;
-    position: relative;
-    top: 125px;
-}
-.log-form{
-    display: block;
-    margin: 0 auto;
-    width: 35%;
-}
 
-.form-items{
-    display: block;
-    margin: 20px 0 !important;
-    padding:0;
-    width: 100%;
-}
-.form-items>input , .form-items>span{
-    width: 100%;
-    margin: 0 !important;
-    outline: none;
-}
-.form-items>input:hover , .form-items>button:hover{
-    box-shadow: rgba(0, 0, 0, 0.55) 1px 1px 15px 10px;
-}
-.form-items>button{
-    margin: 0 !important;
-    padding: 6px 12px;
-    outline: none;
-}
 @media screen and (max-width: 1200px){
-    .form-items>input{
-        font-size: 150%!important;
+
+    div .col1{
+        padding: 38px;
+        
     }
-    .form-items>input , .form-items>span{
-        width: 100%;
-        padding: 25px;
+    p img {
+        width: 400px;
+        position: relative;
+        top: 50px;
+        left: -50px;
     }
-    .log-form{
-        width: 60%;
-    }
-    #login-page{
-        font-size: 200%;
-    }
-    #login-page{
-        background-image: url("../resources/mobile/mobile-login-bg.jpg");
-        background-position: center;
-        background-size: 200%;
-        backdrop-filter: blur(5px);
-    }
-    .logo>#logo-login-pc{
-        display: none;
-    }
-    #logo-login-mobile{
-        display: inline;
-        width:85%;
-        margin: 0 0 20px 0;
-        padding-bottom: 20px;
-        border-bottom: white 1px inset;
-    }
-    #log-login-btn,#log-signup-btn,#log-resetPassword{
-        padding: 20px;
-        font-size: 125%;
-    }
-    #log-form-forgotPass{
-        margin-top: 200px;
+    div .float{
+        	position:fixed;
+	width:200px;
+	height:200px;
+	bottom:50px;
+	right: 60px;
+	background-color:goldenrod;
+	color:#FFF;
+	border-radius:100px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
     }
 
+    div .arrow {
+    border: 2 black;
+    border-width: 0px 15px 15px 0;
+    position: relative;
+    top: 80px;
+    padding: 25px;
+    text-align: center;
+    }
+ 
+
 }
-.carousel-control-next , .carousel-control-prev{
-    width: 5% !important;
+
+*{
+    overflow: visible;
 }
-#header{
-    border-bottom: #734F96 2px solid;
+body{
+    background-color:rgb(32,31,31);
+    color: goldenrod;
 }
+
+
+a{
+    color: magenta;
+    transition: opicity seconds;
+
+}
+
+
+a:hover{
+    cursor: pointer;
+    color: goldenrod;
+}
+.col1{  
+
+    padding: 65px;
+    display:flexbox;
+}
+
+.col1{width: 27%; padding-top: 20px;}
+
+section>div{
+    color: goldenrod;
+    padding: 0px 0px 0px 100px;
+}
+
+p {
+color: goldenrod;
+text-align: center;
+margin: 0px 350px 0px 350px;
+}
+
+.textcenter{
+    text-align: center;
+}
+
+h1 {
+    color: goldenrod;
+    text-align: center;
+}
+
+h2{
+    margin:50px 0px 50px 100px ;
+}
+
+p img {
+    width: 400px;
+    position: relative;
+    top: 50px;
+}
+
+section>ul{
+    padding: 25px 0px 0px 100px;
+}
+
+section>ul>li{
+    padding: 0px 100px 0px 0px;
+}
+
 footer{
     margin-top: 100px !important;
     background-color: #1b1e21;
     border-top: #734F96 2px solid ;
 }
-body{
-    background-color: #1b1e21;
-    color: whitesmoke;
-}
-body>#header{
-    background-color: #1b1e21 !important;
-    font-size: 120%;
-}
-body>#header a:hover ,#navbardrop:hover{
-    color: #BF94E4;
-}
-#header .dropdown-menu{
-    background-color: #292b2c;
-}
-#header .dropdown-menu>a{
-    color: rgba(255, 255, 255, 0.8);
-}
-#header .dropdown-menu>a:hover{
-    color: black !important;
-    background-color: #DDA0DD!important;
-}
-#header .active{
-    color: #6f42c1 !important;
-}
-#search>button , #mobile-search-btn{
-    color: #DDA0DD;
-    border-color: #DDA0DD;
-    border-width: 2px;
-
-}
-#search>button:hover ,#mobile-search-btn:hover{
-    color: black;
-    background-color: #DDA0DD;
-    border-width: 3px;
-
-}
-
-#dropdownMenu-in-nav{
-    color: #BF94E4 !important;
-}
-#catg .card img{
-    height: 200px;
-}
 .social-icons img {
-    width: 35px !important;
-
-}
-#catg-Carousel .carousel-item>.card-columns>.card{
-}
-.card:hover{
-    color: #BF94E4 !important;
-    transform: skewX(2deg);
-}
-#highlight-book-slider{
-    border-bottom: 2px #734F96 solid;
+    width: 100px !important;
 }
 
-@media screen and (max-width: 1200px) {
-    .social-icons img {
-        width: 100px !important;
-    }
-
-    footer span{
-        margin-top: 50px !important;
-    }
-    /*.mobile-social-icons img{*/
-    /*    width: 60px !important;*/
-    /*}*/
-    #header .dropdown-menu{
-        font-size: 200%;
-    }
-    body{
-        font-size: 250%;
-    }
-    #dropdownMenu-in-nav{
-        font-size: 50%;
-    }
-    input::placeholder{
-        font-size: 150%;
-    }
-    #header li:nth-child(even){
-        border-bottom:#FBAED2 thin solid ;
-        border-top:#FBAED2 thin solid ;
-    }
-    #header li:last-child{
-        border-bottom:none;
-    }
-    #header a>img{
-        width: 500px !important;
-    }
-    #header span{
-        font-size: 200% !important;
-    }
-
-    #navbardrop{
-        cursor: pointer;
-    }
-}
-.bookCover{
-    width: 200px !important;
-}
-#liked-books-page .mybooks{
-    background-color: #EE82EE;
-    cursor: pointer;
-}
-#liked-books-page .mybooks a ,#mybooks-page .mybooks a{
-    color: white;
-}
-#liked-books-page .mybooks a:hover ,#mybooks-page .mybooks a:hover{
-    text-decoration: none;
-}
-#liked-books-page .mybooks:hover a ,#mybooks-page .mybooks:hover a{
-    color: black;
-}
-#liked-books-page .mybooks:hover{
-    color: black !important;
-}
-#liked-books-page .myBooks-Container:nth-child(even) .card :hover{
-    background-color: #EE82EE;
-}
-#liked-books-page .myBooks-Container:nth-child(odd) .card :hover{
-    background-color: #734F96;
-}
-#liked-books-page .myBooks-Container:nth-child(even) .card{
-    background-color: #734F96;
-}
-#liked-books-page .myBooks-Container:nth-child(odd) .card{
-    background-color: #EE82EE;
-
+footer span{
+    margin-top: 50px !important;
 }
 
-#mybooks-page .mybooks{
-    background-color: #EE82EE;
-}
-#mybooks-page .mybooks:hover{
-    color: black !important;
-}
-#mybooks-page .myBooks-Container:nth-child(even) .card :hover{
-    background-color: #734F96;
-    /*background-color: #66ff00;*/
-}
-#mybooks-page .myBooks-Container:nth-child(odd) .card :hover{
-    /*background-color:#ffff00;*/
-    background-color: #DDA0DD;
-}
-#mybooks-page .myBooks-Container:nth-child(even) .card{
-    background-color: #DDA0DD;
-
-}
-#mybooks-page .myBooks-Container:nth-child(odd) .card{
-    background-color: #734F96;
+button{
+    position: fixed;
+    float: left;
+    top: 10px;
 }
 
-#catg-page .card a{
-    color:  #DDA0DD !important;
-}
-#catg-page .card:hover a{
-    color:  white !important;
-}
-#search-page .list-group a{
-    color: #EE82EE !important;
-}
-#search-page .list-group a:hover{
-    color: #734F96 !important;
-}
-#search-page .list-group-item-dark:hover a{
-    color: #734F96 !important;
-}
-#search-page .list-group-item-dark:nth-child(n){
-    color: lightgray;
-    background-color: #8459ab;
-}
-#search-page .list-group-item-dark:nth-child(n):hover{
-    color: black;
-    background-color: #DDA0DD;
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:goldenrod;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
 }
 
-@media screen and (max-width: 1200px){
-    .bookCover{
-        width: 500px !important;
-    }
-
+.my-float{
+	margin-top:22px;
 }
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    position: relative;
+    top: 25px;
+    display: inline-block;
+    padding: 3px;
+    text-align: center;
+  }
+
+  .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    text-align: center;
+  }
